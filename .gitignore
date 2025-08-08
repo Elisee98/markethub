@@ -1,0 +1,94 @@
+# MarketHub - Git Ignore File
+
+# Configuration files with sensitive data
+config/config.php
+config/database.php
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Uploaded files (keep structure but ignore content)
+uploads/*
+!uploads/.gitkeep
+uploads/products/*
+!uploads/products/.gitkeep
+
+# Log files
+logs/*.log
+logs/*.txt
+*.log
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+vendor/
+composer.phar
+composer.lock
+
+# Node modules (if using any frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Database dumps
+*.sql
+*.dump
+
+# Test files
+test-*.php
+debug-*.php
+*-test.php
+*-debug.php
+comprehensive-test.php
+error-check.php
+verify-*.php
+
+# Documentation drafts
+*.draft.md
+
+# Local development files
+local-*
+dev-*
+
+# Session files
+sessions/
+
+# Email logs
+email.log
+
+# Performance logs
+performance.log
+
+# Security logs
+security.log
